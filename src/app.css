@@ -1,0 +1,58 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+
+}
+.hero{
+    min-height: 100vh;
+}
+header{
+    position: absolute;
+    width: 100%;
+    background: rgba(69, 69, 69, 0.5);
+    z-index: 3;
+}
+.menu{
+    padding-top: 100px;
+}
+.nav-logo, .nav-item{
+    color: white;
+}
+.nav-logo{
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+.nav-logo:hover, .nav-item:hover{
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 0 2px white;
+}
+.nav-item{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.hero-title{
+    position: relative;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 42px;
+    color: white;
+    text-transform: uppercase;
+}
+.hero-title:before,
+.hero-title:after
+{
+    content: "";
+    position: absolute;
+    top: 270px;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 2px solid white;
+}
+.hero-title:after{
+    top: 180px;
+}
+.dish-section{
+    padding-top: 100px;
+}
